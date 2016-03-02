@@ -1,0 +1,19 @@
+{
+  "name": "wow-calendar",
+  "version": "0.0.1",
+  "description": "As iCal calendar from World of Warcraft events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Vilar <vilar@me.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "ical-generator": "^0.2.7",
+    "request": "^2.69.0"
+  }
+}
